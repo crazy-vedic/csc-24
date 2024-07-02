@@ -659,7 +659,7 @@ const TeamPage = () => {
       {/* SUMIT😅😅😅 ---> ok bro, Adarsh was here */}
       <div className="grid grid-flow-row justify-center items-center my-20">
         <h1 className="senior justify-self-center">Senior Co-ordinators</h1>
-        <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
+        <div className="gap-6 grid md:grid-cols-3 grid-cols-2 justify-evenly w-[100vw]">
           <div>
             <Person
               img={ShrashtidDwivedi}
