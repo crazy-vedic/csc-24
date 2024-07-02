@@ -253,7 +253,7 @@ const TeamPage = () => {
           block
           lg:hidden"
         />
-        <div className="gap-y-7 gap-x-6 grid grid-flow-row md:grid-cols-3 sm:grid-cols-2 justify-evenly w-[100vw]">
+        <div className="gap-y-7 gap-x-6 grid grid-flow-row md:grid-cols-3 sm:grid-cols-2 justify-evenly w-[100vw] ">
           <div className="">
             <Person
               img={vatsa}
@@ -659,11 +659,11 @@ const TeamPage = () => {
       {/* SUMIT😅😅😅 ---> ok bro, Adarsh was here */}
       <div className="grid grid-flow-row justify-center items-center my-20">
         <h1 className="senior justify-self-center">Senior Co-ordinators</h1>
-        <div className="gap-6 grid md:grid-cols-3 grid-cols-2 justify-evenly w-[100vw]">
+        <div className="gap-y-6 gap-x-4 grid md:grid-cols-3 grid-cols-2 justify-evenly w-[100vw]">
           <div>
             <Person
               img={ShrashtidDwivedi}
-              name="Shrashtid Dwivedi"
+              name="Shrashti Dwivedi"
               post="Senior Coordinator of Web-Dev"
               link1="https://www.linkedin.com/in/shrashti-dwivedi-663049253"
               link2="https://www.instagram.com/shrasht_i.06?igsh=YjgxMXFubzRlcnpz"

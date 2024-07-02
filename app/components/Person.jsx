@@ -49,16 +49,17 @@ const Person = ({ img, name, post, link1, link2 }) => {
           block aspect-square object-cover"
       />
       <h2
-        className="justify-self-center 
+        className="text-center
       lg:text-2xl
       md:text-xl
       sm:text-lg
-      text-xl"
+      text-xl
+      "
       >
         {name}
       </h2>
       <h3
-        className="justify-self-center 
+        className="text-center
       lg:text-xl
       md:text-lg
       sm:text-md
